@@ -43,8 +43,8 @@ for i in range(len(interests)):
 
 interest1 = int(input(str(f"\nEnter the number of the interest you would like to choose - 1, 2, 3, or 4: ")))
 
-if 1 < (interest1) < 4:
-    print(f"\n-----------------You have chosen: {interests[interest1]}!-----------------")
+if 1 <= (interest1) <= 4:
+    print(f"\n-----------------You have chosen: {interests[interest1 - 1]}!-----------------")
 else:
     print(str("\nSorry, the number you entered is not valid. Restart the game and pick a valid number"))
 
