@@ -34,7 +34,19 @@ else:
     print("\nSorry, the number you entered is not valid. Restart the game and pick a valid number.")
 
 # Ask user's are of intrest
+print("\nWhat area are you interested in?\n")
 
+interests = ["Computing and IT", "Science", "Engineering", "Health Sciences"]
+        
+for i in range(len(interests)):
+    print(f"{i+1} - {interests[i]}") 
+
+interest1 = int(input(str(f"\nEnter the number of the interest you would like to choose - 1, 2, 3, or 4: ")))
+
+if 1 < (interest1) < 4:
+    print(f"\n-----------------You have chosen: {interests[interest1]}!-----------------")
+else:
+    print(str("\nSorry, the number you entered is not valid. Restart the game and pick a valid number"))
 
 
 # Give the user steps of starting
