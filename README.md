@@ -1,6 +1,13 @@
 # Project01
 Project 01 - Initial Plan
 
+Description: A text-based game that will ultimately give the user information on registering for school and picking courses based on a chosen area of interest.
+
+Contributions:
+Jackson: 3/7 coding sections, found sources
+Max: 3/7 coding sections, found sources
+Victoria: 1/7 coding sections, wrote summary using given sources
+
 ############
 ##SOURCES:##
 ############
